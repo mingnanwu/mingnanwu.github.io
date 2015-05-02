@@ -92,7 +92,8 @@ ul li{
 }
 
 ul li:hover{
-  background-color:#beecea;
+  background-color:#41c7c2;
+  color:#eee;
 }
 
 ul li.focused{

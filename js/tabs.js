@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 
-var MenuExample = React.createClass({
+var Menu = React.createClass({
 
     getInitialState: function(){
         return { focused: 0 };
@@ -54,8 +54,9 @@ var MenuExample = React.createClass({
 // Render the menu component on the page, and pass an array with menu options
 
 React.render(
-    <MenuExample items={ ['Home', 'Services', 'About', 'Contact us'] } />,
+    <Menu items={ ['Home', 'About', 'Contact me', 'LinkedIn'] } />,
     document.getElementById('buttons')
-);/**
+);
+/**
  * Created by v-kevwu on 4/30/2015.
  */
