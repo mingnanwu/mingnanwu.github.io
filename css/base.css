@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  background: #6495ed;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.7;
@@ -128,5 +128,3 @@ button.focused{
   color:#fff;
   background-color:#41c7c2;
 }
-
-
