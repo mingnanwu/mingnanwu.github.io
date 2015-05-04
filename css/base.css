@@ -4,7 +4,6 @@ body {
   font-size: 10px;
   line-height: 1.7;
   margin: 0;
-  padding: 30px;
   text-align: center;
 }
 
@@ -40,7 +39,6 @@ p, ul {
 }
 
 ul {
-  padding-left: 30px;
 }
 * {
   padding:0;
@@ -56,6 +54,7 @@ html{
 ul{
   list-style:none;
   display: inline-block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 ul li{
@@ -79,6 +78,6 @@ ul li.focused{
 }
 
 p{
-  padding-top:15px;
+  padding-top:5px;
   font-size:12px;
 }
