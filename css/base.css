@@ -1,39 +1,39 @@
-/*body {*/
-  /*background: #009688;*/
-  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
-  /*font-weight: 300;*/
-  /*font-size: 30px;*/
-  /*line-height: 1.7;*/
-  /*margin: 0;*/
-  /*text-align: center;*/
-/*}*/
+body {
+  background: #009688;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.7;
+  margin: 0;
+  text-align: center;
+}
 
-/*h1, h2, h3, h4 {*/
-  /*font-weight: bold;*/
-  /*margin: 0 0 15px;*/
-  /*padding: 0;*/
-/*}*/
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
 
-/*h1 {*/
-  /*border-bottom: 1px solid #ddd;*/
-  /*font-size: 2.5em;*/
-  /*font-weight: bold;*/
-  /*margin: 0 0 15px;*/
-  /*padding: 0;*/
-/*}*/
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
 
-/*h2 {*/
-  /*border-bottom: 1px solid #eee;*/
-  /*font-size: 2em;*/
-/*}*/
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
 
-/*h3 {*/
-  /*font-size: 1.5em;*/
-/*}*/
+h3 {
+  font-size: 1.5em;
+}
 
-/*h4 {*/
-  /*font-size: 1.2em;*/
-/*}*/
+h4 {
+  font-size: 1.2em;
+}
 
 /*p, ul {*/
   /*margin: 15px 0;*/

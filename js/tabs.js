@@ -1,62 +1,46 @@
 /** @jsx React.DOM */
 
-var Menu = React.createClass({
 
-    getInitialState: function(){
-        return { focused: 0 };
-    },
 
-    clicked: function(index){
-
-        // The click handler will update the state with
-        // the index of the focused menu entry
-
-        this.setState({focused: index});
-    },
-
+var ComponentExample = React.createClass(Radium.wrap({
     render: function() {
-
-        // Here we will read the items property, which was passed
-        // as an attribute when the component was created
-
-        var self = this;
-
-        // The map method will loop over the array of menu entries,
-        // and will return a new array with <li> elements.
-
         return (
-            <div>
-                <ul>{ this.props.items.map(function(m, index){
-
-                    var style = '';
-
-                    if(self.state.focused == index){
-                        style = 'focused';
-                    }
-
-                    // Notice the use of the bind() method. It makes the
-                    // index available to the clicked function:
-
-                    //return <li className={style} onClick={self.clicked.bind(self, index)}>{m}</li>;
-                    return <li onClick={self.clicked.bind(self, index)}>{m}</li>;
-
-                }) }
-
-                </ul>
-
-                <p>Selected: {this.props.items[this.state.focused]}</p>
-            </div>
-        );
-
+            <button type="button" style={[styles]}>
+                <p>Hover Me</p>
+            </button>
+        )
     }
-});
+}));
+
+var styles = {
+    background: '#c0392b',
+    border: 0,
+    color: 'white',
+    cursor: 'pointer',
+    display: 'block',
+    fontSize: 18,
+    fontWeight: 'bold',
+    margin: "20px auto",
+    minWidth: 200,
+    outline: 0,
+    padding: 10,
+    WebkitTransition: '200ms all linear',
+    MozTransition: '200ms all linear',
+    transition: '200ms all linear',
+    textTransform: 'uppercase',
+    ":hover": {
+        background: '#e74c3c',
+        boxShadow: '0px 0px 10px rgba(0,0,0,0.5)',
+        WebkitTransform: 'scale(1.1)',
+        MozTransform: 'scale(1.1)',
+        transform: 'scale(1.1)'
+    }
+}
+
+React.render(<ComponentExample/>, document.getElementById('name'));
 
 // Render the menu component on the page, and pass an array with menu options
 
-React.render(
-    <Menu items={ ['Home', 'About', 'Contact me', 'LinkedIn'] } />,
-    document.getElementById('buttons')
-);
 /**
  * Created by v-kevwu on 4/30/2015.
  */
