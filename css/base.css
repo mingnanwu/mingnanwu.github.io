@@ -1,92 +1,92 @@
-body {
-  background: #009688;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 1.7;
-  margin: 0;
-  text-align: center;
-}
+/*body {*/
+  /*background: #009688;*/
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+  /*font-weight: 300;*/
+  /*font-size: 30px;*/
+  /*line-height: 1.7;*/
+  /*margin: 0;*/
+  /*text-align: center;*/
+/*}*/
 
-h1, h2, h3, h4 {
-  font-weight: bold;
-  margin: 0 0 15px;
-  padding: 0;
-}
+/*h1, h2, h3, h4 {*/
+  /*font-weight: bold;*/
+  /*margin: 0 0 15px;*/
+  /*padding: 0;*/
+/*}*/
 
-h1 {
-  border-bottom: 1px solid #ddd;
-  font-size: 2.5em;
-  font-weight: bold;
-  margin: 0 0 15px;
-  padding: 0;
-}
+/*h1 {*/
+  /*border-bottom: 1px solid #ddd;*/
+  /*font-size: 2.5em;*/
+  /*font-weight: bold;*/
+  /*margin: 0 0 15px;*/
+  /*padding: 0;*/
+/*}*/
 
-h2 {
-  border-bottom: 1px solid #eee;
-  font-size: 2em;
-}
+/*h2 {*/
+  /*border-bottom: 1px solid #eee;*/
+  /*font-size: 2em;*/
+/*}*/
 
-h3 {
-  font-size: 1.5em;
-}
+/*h3 {*/
+  /*font-size: 1.5em;*/
+/*}*/
 
-h4 {
-  font-size: 1.2em;
-}
+/*h4 {*/
+  /*font-size: 1.2em;*/
+/*}*/
 
-p, ul {
-  margin: 15px 0;
-}
+/*p, ul {*/
+  /*margin: 15px 0;*/
+/*}*/
 
-* {
-  padding:0;
-  margin:0;
-}
+/** {*/
+  /*padding:0;*/
+  /*margin:0;*/
+/*}*/
 
-html{
-  font:14px normal Arial, sans-serif;
-  color:#626771;
-  background-color:#fff;
-}
+/*html{*/
+  /*font:14px normal Arial, sans-serif;*/
+  /*color:#626771;*/
+  /*background-color:#fff;*/
+/*}*/
 
-ul{
-  list-style:none;
-  display: inline-block;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
+/*ul{*/
+  /*list-style:none;*/
+  /*display: inline-block;*/
+  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+/*}*/
 
-ul li{
-  display: inline-block;
-  padding: 10px 40px;
-  cursor:pointer;
-  background-color:#eee;
-  color:#7B8585;
-  transition:0.3s;
-}
+/*ul li{*/
+  /*display: inline-block;*/
+  /*padding: 10px 40px;*/
+  /*cursor:pointer;*/
+  /*background-color:#eee;*/
+  /*color:#7B8585;*/
+  /*transition:0.3s;*/
+/*}*/
 
-ul li:hover{
-  background-color:#41c7c2;
-  color:#eee;
-}
+/*ul li:hover{*/
+  /*background-color:#41c7c2;*/
+  /*color:#eee;*/
+/*}*/
 
-ul li.focused{
-  color:#fff;
-  background-color:#41c7c2;
-}
+/*ul li.focused{*/
+  /*color:#fff;*/
+  /*background-color:#41c7c2;*/
+/*}*/
 
-p{
-  padding-top:5px;
-  font-size:12px;
-}
+/*p{*/
+  /*padding-top:5px;*/
+  /*font-size:12px;*/
+/*}*/
 
-#name{
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  font-size: 30px;
-  font-weight: lighter;
-  color: white;
-}
+/*#name{*/
+  /*top:0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*margin: auto;*/
+  /*font-size: 30px;*/
+  /*font-weight: lighter;*/
+  /*color: white;*/
+/*}*/
