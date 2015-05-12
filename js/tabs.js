@@ -3,11 +3,47 @@
 
 
 var ComponentExample = React.createClass(Radium.wrap({
+
+
+    getInitialState: function(){
+        return { focused: 0 };
+    },
+
+    clicked: function(index){
+
+        // The click handler will update the state with
+        // the index of the focused menu entry
+
+        this.setState({focused: index});
+    },
+
     render: function() {
+
+        var self = this;
+
         return (
-            <button type="button" style={[styles]}>
-                <p>Hover Me</p>
-            </button>
+            //<button type="button" style={[styles]}>
+            //    <p>Hover Me</p>
+            //</button>
+            <div style={[styles]}>
+                <ul>{ this.props.items.map(function(m, index){
+                    var style = '';
+
+                    if(self.state.focused == index){
+                        style = 'focused';
+                    }
+
+                    // Notice the use of the bind() method. It makes the
+                    // index available to the clicked function:
+
+                    return <li className={style} onClick={self.clicked.bind(self, index)}>{m}</li>;
+
+                }) }
+
+                </ul>
+
+                <p>Selected: {this.props.items[this.state.focused]}</p>
+            </div>
         )
     }
 }));
@@ -18,10 +54,10 @@ var styles = {
     color: 'white',
     cursor: 'pointer',
     display: 'block',
-    fontSize: 18,
-    fontWeight: 'bold',
+    fontSize: 10,
+    //fontWeight: 'bold',
     margin: "20px auto",
-    minWidth: 200,
+    minWidth: 20,
     outline: 0,
     padding: 10,
     WebkitTransition: '200ms all linear',
@@ -34,13 +70,26 @@ var styles = {
         WebkitTransform: 'scale(1.1)',
         MozTransform: 'scale(1.1)',
         transform: 'scale(1.1)'
-    }
-}
+    },
+    ':focus': {
+        backgroundColor: 'green'
+    },
 
-React.render(<ComponentExample/>, document.getElementById('name'));
+    ':active': {
+        backgroundColor: 'yellow'
+    }
+};
+
+
+//React.render(<ComponentExample/>, document.getElementById('name'));
 
 // Render the menu component on the page, and pass an array with menu options
 
+
+React.render(
+    <ComponentExample items={ ['Home', 'Services', 'About', 'Contact us'] } />,
+    document.getElementById('name')
+);
 /**
  * Created by v-kevwu on 4/30/2015.
  */
