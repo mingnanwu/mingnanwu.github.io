@@ -15,12 +15,15 @@ var icons = (
         //    <Button bsSize='xsmall'><Glyphicon glyph='star' /> Star</Button>
         //</ButtonGroup>
         //</ButtonToolbar>
-    <div className="btn-group">
-        <a className="btn btn-default" href="#"><i className="fa fa-align-left"></i></a>
-        <a className="btn btn-default" href="#"><i className="fa fa-align-center"></i></a>
-        <a className="btn btn-default" href="#"><i className="fa fa-refresh fa-spin fa-4x"></i></a>
-        <a className="btn btn-default" href="#"><i className="fa fa-align-justify"></i></a>
-    </div>
+        <div className="btn-group">
+            <a className="btn btn-default" href="#"><i className="fa fa-github fa-5x"></i></a>
+            <a className="btn btn-default" href="#"><i className="fa fa-align-center"></i></a>
+            <a className="btn btn-default" href="#"><i className="fa fa-refresh fa-spin fa-4x"></i></a>
+            <a className="btn btn-default" href="#"><i className="fa fa-align-justify"></i></a>
+        </div>
+
 );
+
+
 
 React.render(icons, document.getElementById('socialIcons'));
