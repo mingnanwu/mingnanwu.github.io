@@ -16,10 +16,10 @@ var icons = (
         //</ButtonGroup>
         //</ButtonToolbar>
         <div className="btn-group">
-            <a className="btn btn-default" href="#"><i className="fa fa-github fa-5x"></i></a>
-            <a className="btn btn-default" href="#"><i className="fa fa-align-center"></i></a>
-            <a className="btn btn-default" href="#"><i className="fa fa-refresh fa-spin fa-4x"></i></a>
-            <a className="btn btn-default" href="#"><i className="fa fa-align-justify"></i></a>
+            <a className="btn btn-default" href="https://github.com/mingnanwu"><i className="fa fa-github fa-4x"></i></a>
+            <a className="btn btn-default" href="https://www.linkedin.com/in/mingnanwu"><i className="fa fa-linkedin-square fa-4x"></i></a>
+            <a className="btn btn-default" href="google.com/+wumingnan"><i className="fa fa-google-plus fa-4x"></i></a>
+            <a className="btn btn-default" href="mailto:mingnanwu@gmail.com"><i className="fa fa-envelope-o fa-4x"></i></a>
         </div>
 
 );
