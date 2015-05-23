@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c92982f-b958-4d8b-b74e-a16fbeac58df" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mainbox.js" afterPath="$PROJECT_DIR$/js/mainbox.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mingnanwu.github.io.iws" />
@@ -70,11 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="personal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/personal.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainbox.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/mainbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48951048">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,8 +150,8 @@
         <option value="$PROJECT_DIR$/js/MainBox.js" />
         <option value="$PROJECT_DIR$/js/socialIcons.js" />
         <option value="chrome-extension://gojbdfnpnhogfdgjbigejoaolejmgdhk/Tooltips/TooltipBootstrapper.js" />
-        <option value="$PROJECT_DIR$/js/mainbox.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/mainbox.js" />
       </list>
     </option>
   </component>
@@ -428,7 +439,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432404824103</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="minor color change">
+      <created>1432404839756</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1432404839756</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -858,6 +875,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mainbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48951048">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
