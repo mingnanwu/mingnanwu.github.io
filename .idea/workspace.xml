@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c92982f-b958-4d8b-b74e-a16fbeac58df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5270864">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.67642754">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -477,7 +476,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433183223204</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="responsive for phone transparent navbar">
+      <created>1433188956864</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1433188956864</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -539,7 +544,8 @@
     <MESSAGE value="Added introbox, animation and lighter color" />
     <MESSAGE value="added tooltip on buttons" />
     <MESSAGE value="responsive for phone" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive for phone" />
+    <MESSAGE value="responsive for phone transparent navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive for phone transparent navbar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -908,8 +914,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5270864">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.67642754">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding />
         </state>
       </provider>
