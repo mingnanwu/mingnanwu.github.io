@@ -20,8 +20,11 @@ var icons = (
             <OverlayTrigger placement='top' overlay={<Tooltip>Google+</Tooltip>}>
                 <a className="btn btn-default" href="https://google.com/+wumingnan"><i className="fa fa-google-plus fa-4x"></i></a>
             </OverlayTrigger>
-            <OverlayTrigger placement='top' overlay={<Tooltip><strong>Email me!</strong> Check this info.</Tooltip>}>
+            <OverlayTrigger placement='top' overlay={<Tooltip><strong>Email me!</strong></Tooltip>}>
                 <a className="btn btn-default" href="mailto:mingnanwu@gmail.com"><i className="fa fa-envelope-o fa-4x"></i></a>
+            </OverlayTrigger>
+            <OverlayTrigger placement='top' overlay={<Tooltip><strong>Email me!</strong> Check this info.</Tooltip>}>
+                <a className="btn btn-default" href="https://www.dropbox.com/s/rjwdmqtsz0okyjw/resume%202015.pdf?dl=0"><i className="fa fa-file fa-4x"></i></a>
             </OverlayTrigger>
         </div>
 
