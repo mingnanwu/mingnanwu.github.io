@@ -12,7 +12,9 @@ var IntroBox = React.createClass({
     render: function() {
         return (
             <div className="commentBox">
-                Hello, world! I am a IntroBox.
+                <h1>Mingnan Wu</h1>
+                <p>Software developer</p>
+                <p>.Net C# java frontend-dev</p>
             </div>
         );
     }
