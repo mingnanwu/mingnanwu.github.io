@@ -9,7 +9,7 @@ var Navbar = ReactBootstrap.Navbar,
 
 var navbarInstance = (
     <div>
-    <Navbar brand='' inverse toggleNavKey={0}>
+    <Navbar brand='About Me' inverse toggleNavKey={0}>
         <Nav right eventKey={0}> {/* This is the eventKey referenced */}
             <NavItem eventKey={1} href='#'></NavItem>
             <NavItem eventKey={2} href='#'></NavItem>
